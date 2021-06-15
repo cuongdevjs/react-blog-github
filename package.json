@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "apollo-boost": "^0.4.7",
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^3.2.1",
     "graphql": "^14.5.8",
     "markdown-to-jsx": "^6.10.3",
     "medium.css": "^1.0.2",
