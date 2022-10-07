@@ -21,7 +21,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "react-syntax-highlighter": "^12.2.1",
-    "reading-time": "^1.2.0"
+    "reading-time": "^1.2.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +48,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
