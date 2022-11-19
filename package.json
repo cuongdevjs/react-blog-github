@@ -19,7 +19,7 @@
     "react-ga": "^2.7.0",
     "react-reactions": "github:randomdipesh/react-reactions",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^12.2.1",
     "reading-time": "^1.2.0"
   },
